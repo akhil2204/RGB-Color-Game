@@ -1,0 +1,77 @@
+body{
+	background-color:#232323; 
+}
+h1{
+
+	color:rgb(255, 255, 255);
+	text-align: center;
+	margin:0px auto;
+	font-size:3.5em;
+	font-family:algerian;
+	background: linear-gradient(#ff0000 ,#CCffCC);
+
+}
+#rgbdisp{
+	font-size:1.3em;
+	font-family:algerian;
+
+}
+
+#container{
+	width:600px;
+	text-align: center;
+	margin:0px auto;
+
+}
+#square{
+	float:left;
+	width:30%;
+	margin:1.66%;
+	background:cyan;
+	padding-bottom:25%; 
+	border-radius:15%;
+	transition:background 0.5s;
+	--webkit-transition:background 0.5s;
+    --moz-transition:background 0.5s;
+}
+#message{
+
+	
+
+	display:inline-block;
+	width:20%;
+	font-family:"algerin";
+}
+#smalldisp{
+
+	background-color:rgb(255, 255, 255);
+	text-align: center;
+	margin-bottom:20px;
+	color:linear-gradient(#ff0000, #CCffCC );
+	
+
+}
+
+.selector{
+background: linear-gradient(  #CCffCC,#ff0000, #CCffCC);
+color:white;
+}
+button{
+	height:100%;
+	color:rgba(255,0,0,0.6);
+	background:white;
+    font-size:18px;
+	font-weight:500;
+	font-family:"algerian";
+	border:transparent ;
+	margin:auto;
+    transition: all 2.0
+	transition:background 0.2s;
+	--webkit-transition:background 0.2s;
+    --moz-transition:background 0.2s;
+
+}
+button:hover{
+	color:white;
+background: linear-gradient(#ff0000 ,#CCffCC);
+}
